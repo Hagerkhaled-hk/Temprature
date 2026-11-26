@@ -9,6 +9,6 @@ app = FastAPI(title="City Temperature API")
 app.include_router(cities.router)
 app.include_router(temperatures.router)
 
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+@app.get("/", include_in_schema=False)
+def root():
+    return {"message": "City Temperature API", "docs": "/docs"}
