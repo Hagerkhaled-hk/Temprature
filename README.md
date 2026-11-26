@@ -2,7 +2,7 @@
 
 A REST API built with FastAPI that stores cities and syncs their daily temperatures from the [Open-Meteo](https://open-meteo.com/) API, then serves them with statistics and rankings.
 
-**Live docs:** https://YOUR-PROJECT.vercel.app/docs
+**Live docs:** (https://temprature-kohl.vercel.app/)/docs
 
 ## Features
 
